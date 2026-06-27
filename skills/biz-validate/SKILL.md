@@ -340,8 +340,8 @@ Notes: [key caveats on the math]
 
 ━━━ PHASE 7: RED FLAGS ━━━
 Active flags:
-  🔴 [flag] — [why it applies to this specific idea]
-  🟡 [flag] — [why it applies, but less severely]
+  [flag] — [why it applies to this specific idea]
+  [flag] — [why it applies, but less severely]
   [omit green flags — only surface real concerns]
 
 Kill conditions triggered: YES / NO

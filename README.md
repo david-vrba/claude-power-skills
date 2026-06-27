@@ -1,4 +1,4 @@
-# Claude Power Skills ⚡
+# Claude Power Skills
 
 > **19 powerful, original [Claude Code](https://claude.ai/code) skills** — reel & video intelligence, a heavy-prompt engineering system, deep code audits, session save/restore, and more. One command each.
 
@@ -28,7 +28,7 @@ Then run it inside Claude Code: `/reel`, `/heavy`, `/sanity-check`, `/what-break
 
 ## The skills
 
-### 🔍 Intelligence — multi-tool analysis pipelines
+### Intelligence — multi-tool analysis pipelines
 | Skill | What it does |
 |---|---|
 | `/reel` | Deep-analyze an Instagram/TikTok reel — download, transcribe, extract frames, scrape comments, research → a replication strategy. `-h` full pipeline · `-l` fast visual-only. |
@@ -36,7 +36,7 @@ Then run it inside Claude Code: `/reel`, `/heavy`, `/sanity-check`, `/what-break
 | `/biz-validate` | Validate a business idea — problem research, market sizing, competition, persona simulation → a go/no-go verdict. |
 | `/clone-website` | Reverse-engineer and rebuild any site, section by section, with parallel builder agents. |
 
-### ✍️ Prompt engineering — a complete heavy-prompt system
+### Prompt engineering — a complete heavy-prompt system
 | Skill | What it does |
 |---|---|
 | `/heavy` | Launch a pre-engineered "heavy prompt" from your library and run it in-session. |
@@ -44,7 +44,7 @@ Then run it inside Claude Code: `/reel`, `/heavy`, `/sanity-check`, `/what-break
 | `/heavy-review` | Adversarially review a heavy prompt for logic gaps, safety, resumability, and output-spec correctness → PASS / NEEDS-FIX. |
 | `/make-prompt` | Craft a production-grade prompt for any target — LLM, image-gen, or system/agent — using the right best practices. |
 
-### ✅ Code quality — audits with teeth
+### Code quality — audits with teeth
 | Skill | What it does |
 |---|---|
 | `/sanity-check` | Post-implementation audit — security, logic, edge cases, stack-specific checks → PASS/FAIL with severity tiers. |
@@ -53,14 +53,14 @@ Then run it inside Claude Code: `/reel`, `/heavy`, `/sanity-check`, `/what-break
 | `/orient` | Drop into an unfamiliar project and get oriented fast — what it is, the stack, entry points, where to start. |
 | `/ship` | Pre-deploy gate → deploy → smoke-test the live URL, in one pass. |
 
-### 💾 Session & workflow — never lose your place
+### Session & workflow — never lose your place
 | Skill | What it does |
 |---|---|
 | `/save-session` | Save your session state to project memory so it's discoverable later. |
 | `/catch-up` | Cross-project command center — scan every project's saved state into one dashboard of open work. |
 | `/overnight` | Schedule the current task to run unattended overnight (headless), isolated on a branch, results surfaced next morning. |
 
-### 🛠️ Utility
+### Utility
 | Skill | What it does |
 |---|---|
 | `/braindump` | Turn a messy voice ramble into clean structured output — spec, tasks, outline, or decision. |

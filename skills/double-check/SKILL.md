@@ -19,7 +19,7 @@ Default: the work just done — the current changes (`git diff` if available) an
 
 ## Procedure — do the work, don't just report it
 1. **Review** — read the real code/files across all five lenses; gather findings.
-2. **Plan** — rank findings by severity (🔴 breaks things · 🟠 should fix · 🟢 minor). Decide which fixes are **safe and easy to apply now** vs. which to only flag (risky, large, or needing real test data).
+2. **Plan** — rank findings by severity (breaks things · should fix · minor). Decide which fixes are **safe and easy to apply now** vs. which to only flag (risky, large, or needing real test data).
 3. **Fix** — apply the safe, clear fixes. For edge cases: fix the cheap/safe ones; **list** the rest with why they're deferred. Don't make risky or large changes without surfacing them first.
 4. **Verify** — actually confirm each fix: run it, run tests, or trace the logic. Make sure nothing regressed. State what you verified and how.
 5. **Report** — concise: what was found, what you fixed, what's still open (and why). Point to locations (`file:line`), don't dump full files.

@@ -31,17 +31,17 @@ projects, reading each in full would blow your context. Pull only:
 - **Next action** — the single next step (from "Next action" / "Immediate" /
   "Current Status").
 - **Last touched** — the `created:` date (fall back to file mtime if absent).
-- **Type** — session-state vs **⚠ active compact-checkpoint** (a checkpoint means
+- **Type** — session-state vs **active compact-checkpoint** (a checkpoint means
   a task was mid-flight at a compact and never closed out).
 
 ## Step 3 — Present the dashboard
 
 Sort most-recently-touched first. Group into:
 
-**🔵 Active (touched ≤ 14 days)** — table: Project | What | Next action | Last touched
-**⚪ Stale (older)** — same columns, condensed; these are candidates to finish or archive.
+**Active (touched ≤ 14 days)** — table: Project | What | Next action | Last touched
+**Stale (older)** — same columns, condensed; these are candidates to finish or archive.
 
-Surface any **⚠ active checkpoint** at the very top — that's interrupted work.
+Surface any **active checkpoint** at the very top — that's interrupted work.
 
 If the user passed an argument, filter to it (a project name, or `stale` /
 `active`).

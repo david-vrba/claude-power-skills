@@ -28,5 +28,5 @@ Never trust "deploy succeeded" alone. Hit the actual URL (WebFetch / curl):
 ## Step 4 — Report
 - Gate results (build/tests).
 - Deployed URL + target.
-- Smoke-test verdict: **Live and verified ✓** or **Deployed but smoke-test failed — investigate ⚠**.
+- Smoke-test verdict: **Live and verified ** or **Deployed but smoke-test failed — investigate **.
 Keep it tight. **Never claim "shipped" if the smoke test didn't pass.**
